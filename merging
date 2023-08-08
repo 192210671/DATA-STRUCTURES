@@ -1,0 +1,67 @@
+
+#include<stdio.h>
+int main()
+{
+	int n1,n2,n;
+	int i,j,k,temp;
+	int a[10],b[10],c[10];
+	printf("enter the size of the first arry \n");
+	scanf("%d",&n1);
+
+	printf("the array A is\n ");
+
+	for(i=0;i<n1;i++)
+	{
+
+		scanf("%d",&a[i]);
+		c[i]=a[i];
+	}
+	k=i;
+	printf("enter the size of the second array \n");
+	scanf("%d",&n2);
+
+	printf("the array B is \n");
+	for(i=0;i<n2;i++)
+	{
+
+		scanf("%d",&a[i]);
+		c[k]=a[i];
+		k++;
+
+	}
+	printf("the array after merging is \n ");
+	for(i=0;i<k;i++)
+{
+	printf("%d\n",c[i]);
+}
+
+for(i=0;i<k;i++)
+{
+
+	for(j=i+1;j<k;j++)
+	{
+
+	if(c[i]>c[j])
+	{
+		temp=c[i];
+		c[i]=c[j];
+		c[j]=temp;
+
+
+	}
+
+	}
+}
+printf("array after sorting is \n");
+for(i=0;i<k;i++)
+{
+	printf("%d ",c[i]);
+}
+printf("\narray in descendin order \n");
+for(i=k-1;i>=0;i--)
+{
+
+	printf("%d ",c[i]);
+}
+
+}
