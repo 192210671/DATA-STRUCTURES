@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int n,m,i;
+
+	printf("enter the range \n");
+	scanf("%d",&n);
+	scanf("%d",&m);
+	printf("the even numbers in the given range is \n");
+	for(i=n;i<=m;i++)
+	{
+
+		if(i%2==0)
+		{
+
+			printf("%d\n",i);
+		}
+	}
+
+
+}
