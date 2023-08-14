@@ -1638,7 +1638,7 @@ int main() {
 
 
 
-39.	Implement Dijikstra’s algorithm to find shortest path from the node A using C. 
+34.	Implement Dijikstra’s algorithm to find shortest path from the node A using C. 
   
 
 
@@ -1720,7 +1720,7 @@ int main() {
 }
 
 
-38.	Program to construct minimum spanning tree from the following graph using Prim’s algorithm. Start from node 5. 
+35.	Program to construct minimum spanning tree from the following graph using Prim’s algorithm. Start from node 5. 
 
 #include <stdio.h>
 #include <stdbool.h>
@@ -1795,7 +1795,7 @@ int main() {
     return 0;
 }
 
-40.	Program to construct minimum spanning tree from the following graph using Kruskal’s algorithm. Start from node B. 
+36.	Program to construct minimum spanning tree from the following graph using Kruskal’s algorithm. Start from node B. 
 
    #include <stdio.h>
 #include <stdlib.h>
@@ -1901,7 +1901,7 @@ int main() {
 }
 
 
-34.	Program to traverse the following binary tree in postorder. 
+37.	Program to traverse the following binary tree in postorder. 
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -1956,7 +1956,7 @@ int main() {
 
 
 
-32.	Program to traverse the following tree in preorder and print the sequence.  
+38.	Program to traverse the following tree in preorder and print the sequence.  
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -2008,7 +2008,7 @@ int main() {
     return 0;
 }
 
-30.	Program to traverse the following binary tree in inorder and print the sequence
+39.	Program to traverse the following binary tree in inorder and print the sequence
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -2061,7 +2061,7 @@ int main() {
 }
 
 
-29.	Write a c program to implement the shortest path from the node A in the following graph.
+40.	Write a c program to implement the shortest path from the node A in the following graph.
 
  Write a c program to implement the shortest path from the node A in the following graph.
 
